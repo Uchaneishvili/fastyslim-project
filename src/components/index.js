@@ -54,7 +54,7 @@ function Mainpage() {
                     <div className="title">
                       VERBRENNEN SIE FETT SCHNELLER ALS JEMALS ZUVOR!
                     </div>
-                    <p>
+                    <p className="card-desc">
                       Ärzte, Ernährungswissenschaftler und Prominente kennen die
                       fettverbrennenden Vorteile von FASTYSLIM!
                     </p>
@@ -76,7 +76,7 @@ function Mainpage() {
                     <div className="title">
                       VERBRENNEN SIE FETT FÜR ENERGIE, STATT KOHLENHYDRATE
                     </div>
-                    <p>
+                    <p className="card-desc">
                       Wenn Ihr Körper FASTY SLIM zugeführt bekommt, verbrennt er
                       Fettzellen anstelle von Kohlenhydraten für Energie
                     </p>
@@ -99,7 +99,7 @@ function Mainpage() {
                   <div className="title">
                     LIEBEN SIE ES, WIE SIE SICH FÜHLEN!
                   </div>
-                  <p>
+                  <p className="card-desc">
                     Fett anstelle von Kohlenhydraten für Energie zu verbrennen,
                     gibt Ihrem Körper 225% mehr Energie!
                   </p>
@@ -116,13 +116,6 @@ function Mainpage() {
           <div className="right-side-container">
             <div className="right-side-container-container-third">
               <div className="logo-and-drug-image">
-                <div className="drug-image-container-third">
-                  <img
-                    className="drug-image third-drug-image"
-                    src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-blister.png"
-                    alt="drug"
-                  />
-                </div>
                 <div className="logo-and-title-container">
                   <h2>Verbrennen Sie mit </h2>
                   <div className="logo-container">
@@ -132,6 +125,13 @@ function Mainpage() {
                       alt="fastyslim"
                     />
                   </div>
+                </div>
+                <div className="drug-image-container-third">
+                  <img
+                    className="drug-image third-drug-image"
+                    src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-blister.png"
+                    alt="drug"
+                  />
                 </div>
               </div>
               <h2 className="bottom-text">Fett anstelle von Kohlenhydraten</h2>
@@ -177,7 +177,7 @@ function Mainpage() {
 
               <p className="linked-para">
                 <a
-                  className="linked-para"
+                  className="linked-para price-title"
                   href="https://fastyslim.de/fastyslim-bestellen/"
                 >
                   Ab 24,95€ pro Packung
@@ -187,7 +187,10 @@ function Mainpage() {
                 </span>
               </p>
 
-              <img src="https://fastyslim.de/wp-content/uploads/2020/12/footer-symbole-416x105.png" />
+              <img
+                className="footer-img"
+                src="https://fastyslim.de/wp-content/uploads/2020/12/footer-symbole-416x105.png"
+              />
             </div>
           </div>
         </div>

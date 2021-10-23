@@ -136,7 +136,7 @@ h2 {
 }
 .logo-and-drug-image {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
@@ -243,6 +243,10 @@ a {
   .left-side-container {
     width: 0%;
   }
+  .card-desc {
+    font-size: 0.7em;
+    text-align: center;
+  }
 
   .right-side-container {
     width: 100%;
@@ -293,5 +297,28 @@ a {
     color: #000000;
     font-family: "Source Sans Pro", Sans-serif;
     font-weight: 400;
+  }
+
+  /* Fifth Container*/
+
+  .href-button-fifth {
+    display: none;
+  }
+
+  .price-title {
+    display: none;
+  }
+
+  .footer-img {
+    max-width: 100%;
+  }
+
+  .right-side-container-container-fifth {
+    padding-top: 40%;
+  }
+
+  /* Third View*/
+  .logo-and-drug-image {
+    display: block;
   }
 }

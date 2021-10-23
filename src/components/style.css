@@ -1,0 +1,297 @@
+body {
+  line-height: 1;
+}
+.main-container {
+  background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  height: 1000px;
+}
+
+.first-view-container {
+  display: flex;
+  padding: 60px 0px 60px 0px;
+}
+
+.right-side-container {
+  text-align: center;
+}
+.fastyslim-logo {
+  width: 300px;
+  display: inline-block;
+  left: 10px;
+  margin-bottom: 20px;
+}
+
+.left-side-container {
+  width: 40%;
+}
+.right-side-container {
+  width: 60%;
+}
+
+.main-title {
+  color: #277632;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.rotated-text-container {
+  margin-bottom: 20px;
+  color: #f9b114;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  transform: rotate(-3deg);
+  line-height: 1;
+}
+
+.secondary-title-container {
+  color: #277632;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.secondary-rotated-text-container {
+  color: #f9b114;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 2.9em;
+  font-weight: 600;
+  transform: rotate(-3deg);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.drug-image-container {
+  position: absolute;
+  z-index: 1;
+  left: 105px;
+  top: 450px;
+  text-align: center;
+  width: 50%;
+}
+
+.drug-image {
+  max-width: 300px;
+}
+
+.card-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  display: flex;
+  max-width: 607px;
+  margin-bottom: 10px;
+}
+
+.success-image {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.title {
+  color: #000000;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+}
+
+.textes {
+  padding: 10px 0px 0px 20px;
+  text-align: initial;
+}
+
+/* third container */
+
+.third-main-container {
+  background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-03.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  height: 1000px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
+.logo-and-drug-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.third-drug-image {
+  width: 167px;
+}
+
+.fastyslim-logo-third {
+  transform: rotate(-3deg);
+  width: 300px;
+  display: inline-block;
+  left: 10px;
+  margin-bottom: 5px;
+}
+.right-side-container-container-third {
+  padding-top: 30%;
+}
+
+/* fifth container */
+
+.fifth-main-container {
+  background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-06.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  height: 1000px;
+}
+
+.right-side-container-container-fifth {
+  padding-top: 5%;
+}
+
+/* .text-bottom-of-button,
+.text-bottom-of-button-linked {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  text-decoration: none;
+} */
+
+.linked-para,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.main-title-fifth {
+  color: #40a736;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.rotated-text-container-fifth {
+  margin-bottom: 5px;
+  color: #f9b114;
+  font-family: "Roboto", Sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  transform: rotate(-3deg);
+  line-height: 1;
+}
+
+.secondary-rotated-text-container-fifth {
+  color: #40a736;
+  font-family: "Roboto", Sans-serif;
+  font-size: 2.4em;
+  font-weight: 600;
+  transform: rotate(-3deg);
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.drug-image-container-fifth {
+  margin-bottom: 5px;
+}
+
+.href-button-fifth {
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #db130c;
+  border-radius: 10px 10px 10px 10px;
+  padding: 30px 120px 30px 120px;
+  color: white;
+  line-height: 1;
+  border: none;
+}
+@media (max-width: 767px) {
+  .main-container {
+    background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin: -50px 0px 0px 0px;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: flex-start;
+  }
+  .left-side-container {
+    width: 0%;
+  }
+
+  .right-side-container {
+    width: 100%;
+  }
+  .fastyslim-logo {
+    width: 250px;
+  }
+  .main-title {
+    font-size: 25px;
+  }
+  .rotated-text-container {
+    font-size: 62px;
+  }
+  .secondary-title-container {
+    font-size: 24px;
+  }
+  .secondary-rotated-text {
+    font-size: 37px;
+  }
+  .drug-image-container {
+    position: relative;
+    z-index: 0;
+    top: 350px;
+    left: 12vh;
+    text-align: center;
+  }
+
+  .drug-image {
+    width: 230px;
+  }
+  .cards-container {
+    padding-top: 60%;
+  }
+
+  .success-image {
+    display: none;
+  }
+
+  .title {
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.618;
+  }
+  p {
+    margin: 0 0 1.41575em;
+    text-align: center;
+    line-height: 1.618;
+    color: #000000;
+    font-family: "Source Sans Pro", Sans-serif;
+    font-weight: 400;
+  }
+}

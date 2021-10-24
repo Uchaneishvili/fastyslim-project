@@ -192,6 +192,50 @@ body {
   padding: 20px 20px 20px 20px;
 }
 
+/* proof*/
+.second-main-container {
+  background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-02.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-size: cover;
+  height: 950px;
+}
+
+.the-proof {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.the-proof-secondary-text {
+  color: #54595f;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.text-under-proof-image {
+  text-align: center;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  margin-top: 3%;
+}
+.proof-image {
+  width: 400px;
+}
+
+.right-side-container-container-second {
+  width: 70%;
+  padding-top: 20%;
+}
+
 /* third container */
 
 .third-main-container {
@@ -621,5 +665,24 @@ a {
 
   .description-image-container {
     width: 100%;
+  }
+
+  /* Proof*/
+  .right-side-container {
+    display: block;
+    text-align: center;
+  }
+  .proof-image {
+    height: auto;
+    width: 100%;
+  }
+
+  .the-proof {
+    line-height: 1;
+  }
+
+  .right-side-container-container-second {
+    width: 100%;
+    padding: 2%;
   }
 }

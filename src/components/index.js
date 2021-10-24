@@ -247,6 +247,37 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="second-main-container">
+        <div className="first-view-container">
+          <div className="left-side-container"></div>
+          <div className="right-side-container">
+            <div className="right-side-container-container-second">
+              <div className="proof-text-and-image">
+                <h2 className="the-proof">Der Beweis! </h2>
+                <h2 className="the-proof-secondary-text">
+                  Schließen Sie sich den tausenden von Personen an, die bereits
+                  0,5 kg pro Tag verlieren!
+                </h2>
+              </div>
+
+              <div className="proof-image-container">
+                <img
+                  className="proof-image"
+                  src="https://fastyslim.de/wp-content/uploads/2020/12/b4after.jpg"
+                  alt="proof"
+                />
+              </div>
+              <p className="text-under-proof-image">
+                Schließen Sie sich den tausenden von Personen an, die bereits
+                mit FASTY SLIM abgenommen haben! Verbrennen Sie Fett anstelle
+                von Kohlehydraten, um Energie zu bekommen und spüren Sie den
+                erhöhten Energielevel, den FASTY SLIM Ihnen verleiht!{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="third-main-container">
         <div className="first-view-container">
           <div className="left-side-container"></div>

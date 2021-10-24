@@ -1,12 +1,12 @@
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 .main-container {
   background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-  overflow-x: hidden;
-  height: 1000px;
+  background-size: cover;
 }
 
 .first-view-container {
@@ -120,6 +120,78 @@ body {
   text-align: initial;
 }
 
+/* Second ViewPage */
+
+.text-above-the-button {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 5%;
+}
+
+.secondary-text-on-the-label {
+  color: #fb4946;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 46%;
+  top: 45%;
+}
+.text-on-the-label {
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  text-align: end;
+  left: 46%;
+  top: 10%;
+  font-weight: 400;
+}
+.label-and-button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-container {
+  width: 40%;
+}
+
+.handwriting {
+  font-family: "Architects Daughter", Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  transform: rotate(-3deg);
+  color: #6ec1e4;
+}
+.label-container {
+  width: 40%;
+  align-items: center;
+  text-align: end;
+  margin: 0;
+  position: relative;
+  margin-top: 2%;
+}
+.label {
+  width: 60%;
+  margin: 0;
+}
+
+.href-button-little {
+  background-color: #db130c;
+  color: white;
+  line-height: 1;
+  border: none;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
 /* third container */
 
 .third-main-container {
@@ -127,7 +199,8 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   overflow-x: hidden;
-  height: 1000px;
+  height: 950px;
+  background-size: cover;
 }
 
 h2 {
@@ -164,11 +237,11 @@ h2 {
   background-position: top center;
   background-repeat: no-repeat;
   overflow-x: hidden;
-  height: 1000px;
+  background-size: cover;
 }
 
 .right-side-container-container-fifth {
-  padding-top: 5%;
+  padding-top: 4%;
 }
 
 /* .text-bottom-of-button,
@@ -185,6 +258,7 @@ a {
   text-decoration: none;
   color: black;
   font-size: 14px;
+  font-weight: 400;
 }
 .main-title-fifth {
   color: #40a736;
@@ -230,6 +304,7 @@ a {
   line-height: 1;
   border: none;
 }
+
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -320,5 +395,64 @@ a {
   /* Third View*/
   .logo-and-drug-image {
     display: block;
+  }
+
+  /* Second View */
+
+  .label-and-button-container {
+    display: block;
+    background-color: #5c0a07;
+    margin-top: 5%;
+  }
+
+  .button-container {
+    width: 100%;
+  }
+  .href-button-little {
+    display: none;
+  }
+  .label {
+    display: none;
+  }
+  .label-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .texts-on-label {
+    padding: 1%;
+  }
+
+  .secondary-text-on-the-label,
+  .text-on-the-label {
+    position: inherit;
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+  }
+
+  .text-on-the-label {
+    font-size: 20px;
+  }
+
+  .secondary-text-on-the-label {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .handwriting-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .handwriting {
+    position: absolute;
+    margin-top: 5%;
+  }
+  .text-above-the-button {
+    display: none;
   }
 }

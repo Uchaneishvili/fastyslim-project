@@ -110,6 +110,33 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="label-and-button-container">
+        <div className="label-container">
+          <div className="texts-on-label">
+            <h2 className="text-on-the-label">
+              Holen Sie sich Ihre risikofreie Packung
+            </h2>
+            <p className="secondary-text-on-the-label">
+              100 % natürliche FASTYSLIM-Formel
+            </p>
+          </div>
+          <img
+            className="label"
+            src="https://fastyslim.de/wp-content/uploads/2020/12/Pfeil-orange-01.png"
+            alt="label"
+          />
+        </div>
+        <div className="button-container">
+          <p className="text-above-the-button">Ab 24,95€ pro Packung</p>
+          <a href="https://fastyslim.de/fastyslim-bestellen/">
+            <button className="href-button-little">Jetzt Bestellen</button>
+          </a>
+          <div className="handwriting-container">
+            <div className="handwriting">Nur befristet verfügbar!</div>
+          </div>
+        </div>
+      </div>
+
       <div className="third-main-container">
         <div className="first-view-container">
           <div className="left-side-container"></div>
@@ -172,7 +199,9 @@ function Mainpage() {
               </div>
 
               <a href="https://fastyslim.de/fastyslim-bestellen/">
-                <button className="href-button-fifth">Jetzt Bestellen</button>
+                <button className="href-button href-button-fifth">
+                  Jetzt Bestellen
+                </button>
               </a>
 
               <p className="linked-para">

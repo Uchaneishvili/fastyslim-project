@@ -47,6 +47,7 @@ function Mainpage() {
                       src="https://svgshare.com/i/FUm.svg"
                       width="50px"
                       height="50px"
+                      alt="success"
                     />
                   </div>
 
@@ -69,6 +70,7 @@ function Mainpage() {
                       src="https://svgshare.com/i/FUm.svg"
                       width="50px"
                       height="50px"
+                      alt="success"
                     />
                   </div>
 
@@ -92,6 +94,7 @@ function Mainpage() {
                     src="https://svgshare.com/i/FUm.svg"
                     width="50px"
                     height="50px"
+                    alt="success"
                   />
                 </div>
 
@@ -133,6 +136,69 @@ function Mainpage() {
           </a>
           <div className="handwriting-container">
             <div className="handwriting">Nur befristet verfügbar!</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="services-container">
+        <div className="services">
+          <div className="shipping-container">
+            <div className="shipping-image-container">
+              <img
+                className="fast-shipping-image"
+                src="https://iconape.com/wp-content/png_logo_vector/shipping-fast.png"
+                alt="fast-shipping"
+              />
+            </div>
+            <div className="services-text">
+              <div className="main-service-title">EXPRESS-VERSAND</div>
+              <div className="secondary-service-title">
+                Für alle Bestellungen
+              </div>
+            </div>
+          </div>
+          <div className="hour-container">
+            <div className="hour-image-container">
+              <img
+                className="hour-service-image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Font_Awesome_5_solid_history.svg/1024px-Font_Awesome_5_solid_history.svg.png"
+                alt="history"
+              />
+            </div>
+            <div className="services-text">
+              <div className="main-service-title">24H SERVICE</div>
+              <div className="secondary-service-title">
+                Deutscher Kundenservice
+              </div>
+            </div>
+          </div>
+          <div className="payment-container">
+            <div className="payment-image-container">
+              <img
+                className="payment-image"
+                src="https://svgsilh.com/svg/154684.svg"
+                alt="lock"
+              />
+            </div>
+            <div className="services-text">
+              <div className="main-service-title">SICHERE ZAHLUNG</div>
+              <div className="secondary-service-title">SSL Verschlüsselt</div>
+            </div>
+          </div>
+          <div className="natural-container">
+            <div className="natural-image-container">
+              <img
+                className="natural-image"
+                src="http://cdn.onlinewebfonts.com/svg/img_561441.png"
+                alt="natural"
+              />
+            </div>
+            <div className="services-text">
+              <div className="main-service-title">100% NATÜRLICH</div>
+              <div className="secondary-service-title">
+                Für garantierten Erfolg
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -218,6 +284,7 @@ function Mainpage() {
 
               <img
                 className="footer-img"
+                alt="footer"
                 src="https://fastyslim.de/wp-content/uploads/2020/12/footer-symbole-416x105.png"
               />
             </div>

@@ -305,6 +305,87 @@ a {
   border: none;
 }
 
+/* Services */
+.fast-shipping-image,
+.hour-service-image,
+.payment-image,
+.natural-image {
+  display: inline-block;
+  font-size: inherit;
+  height: 70px;
+  overflow: visible;
+  vertical-align: -0.125em;
+  opacity: 0.2;
+}
+.hour-service-image,
+.natural-image {
+  height: 50px;
+}
+
+.shipping-image-container,
+.hour-image-container,
+.payment-image-container,
+.natural-image-container {
+  padding: 2px;
+  margin-right: 8px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #6cad51;
+}
+
+.services-text {
+  line-height: 1.618;
+}
+.main-service-title {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.secondary-service-title {
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+.shipping-container,
+.hour-container,
+.payment-container,
+.natural-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 2%;
+  border-right: 1px solid #ffffff33;
+}
+
+.natural-container {
+  border: none;
+}
+.shipping-context-contaier {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.services-container {
+  margin: 10% 15%;
+}
+
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -448,11 +529,30 @@ a {
     justify-content: space-around;
     align-items: flex-start;
   }
+  .handwriting-container {
+    background-color: white;
+  }
   .handwriting {
-    position: absolute;
-    margin-top: 5%;
+    padding: 5%;
   }
   .text-above-the-button {
     display: none;
+  }
+
+  /* Services */
+  .services {
+    flex-wrap: wrap;
+  }
+
+  .services-container {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .shipping-container,
+  .hour-container,
+  .payment-container,
+  .natural-container {
+    border: none;
   }
 }

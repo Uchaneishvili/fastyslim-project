@@ -85,27 +85,27 @@ function Mainpage() {
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div className="card-main-container">
-              <div className="card-container">
-                <div className="success-image">
-                  <img
-                    src="https://svgshare.com/i/FUm.svg"
-                    width="50px"
-                    height="50px"
-                    alt="success"
-                  />
-                </div>
-
-                <div className="textes">
-                  <div className="title">
-                    LIEBEN SIE ES, WIE SIE SICH FÜHLEN!
+              <div className="card-main-container">
+                <div className="card-container">
+                  <div className="success-image">
+                    <img
+                      src="https://svgshare.com/i/FUm.svg"
+                      width="50px"
+                      height="50px"
+                      alt="success"
+                    />
                   </div>
-                  <p className="card-desc">
-                    Fett anstelle von Kohlenhydraten für Energie zu verbrennen,
-                    gibt Ihrem Körper 225% mehr Energie!
-                  </p>
+
+                  <div className="textes">
+                    <div className="title">
+                      LIEBEN SIE ES, WIE SIE SICH FÜHLEN!
+                    </div>
+                    <p className="card-desc">
+                      Fett anstelle von Kohlenhydraten für Energie zu
+                      verbrennen, gibt Ihrem Körper 225% mehr Energie!
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -201,6 +201,50 @@ function Mainpage() {
             </div>
           </div>
         </div>
+
+        <div className="description">
+          <div className="description-text">
+            <h2 className="description-text-title">
+              Revolutionärer Durchbruch!
+            </h2>
+            <div className="description-text-sub-title">
+              Warum schwärmen <strong> Wissenschaftler, Ärzte </strong> und
+              <strong> Prominente </strong> davon?
+            </div>
+            <p className="para-text">
+              <strong>
+                Das Diät Produkt, über welches zurzeit am meisten gesprochen
+                wird, ist endlich verfügbar!
+              </strong>
+              <br />
+              FASTYSLIM, eine mächtige Fettverbrennungsformel, wurde
+              modifiziert, um eine sofortige natürliche Fettverbrennungslösung
+              zu produzieren. Hochwirksame Inhaltsstoffe im perfekten
+              Zusammenspiel bewirken innerhalb kurzer Zeit eine Steigerung der
+              gesunden Fettverbrennung. FASTYSLIM beginnt sofort in Ihrem Körper
+              zu wirken, was für Energie und einen gesteigerten Gewichtsverlust
+              sorgt, da Ihr Körper in den Zustand der Abnahme kommt. Dieses
+              Diät–Nahrungsergänzungsmittel ist ein revolutionärer Durchbruch:
+              die Medien spielen verrückt.
+            </p>
+            <p className="underline-bold-text">
+              <strong>
+                <u>
+                  FASTYSLIM mit der Fettverbrennungsformel ist und bleibt
+                  aufgrund des Riesenerfolgs von Leuten, die bis zu 0,5 kg an
+                  Fett pro Tag verloren haben, verfügbar!
+                </u>
+              </strong>
+            </p>
+          </div>
+          <div className="description-image-container">
+            <img
+              className="description-image"
+              src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-blister.png"
+              alt="medicine"
+            />
+          </div>
+        </div>
       </div>
 
       <div className="third-main-container">
@@ -277,9 +321,7 @@ function Mainpage() {
                 >
                   Ab 24,95€ pro Packung
                 </a>
-                <span>
-                  <p>Ihre Daten sind geschützt!</p>
-                </span>
+                <span>Ihre Daten sind geschützt!</span>
               </p>
 
               <img

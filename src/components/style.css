@@ -244,15 +244,6 @@ h2 {
   padding-top: 4%;
 }
 
-/* .text-bottom-of-button,
-.text-bottom-of-button-linked {
-  font-size: 14px;
-  font-weight: 400;
-  color: #212529;
-  font-family: "Source Sans Pro", Sans-serif;
-  text-decoration: none;
-} */
-
 .linked-para,
 a {
   text-decoration: none;
@@ -337,6 +328,7 @@ a {
   align-content: center;
   justify-content: space-around;
   background-color: #6cad51;
+  margin-bottom: 5%;
 }
 
 .services-text {
@@ -386,6 +378,53 @@ a {
   margin: 10% 15%;
 }
 
+/* Description */
+
+.description {
+  display: flex;
+  margin: 0 0 1.41575em;
+  line-height: 1.618;
+  padding: 2%;
+}
+
+.description-text-sub-title {
+  color: #db130c;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description-text-title {
+  color: #b9221e;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.description-text {
+  width: 70%;
+}
+
+.description-image {
+  width: 100%;
+}
+.description-image-container {
+  width: 30%;
+}
+
+.bold-para {
+  margin: 0%;
+  font-weight: 600;
+}
+
+.underline-bold-text {
+  margin-top: 1.41575em;
+  line-height: 1.618;
+  font-size: 16px;
+  color: #212529;
+}
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -435,6 +474,8 @@ a {
   }
   .cards-container {
     padding-top: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .success-image {
@@ -554,5 +595,31 @@ a {
   .payment-container,
   .natural-container {
     border: none;
+  }
+
+  /* Description */
+  .description {
+    display: block;
+    margin: 0 0 1.41575em;
+    line-height: 1.618;
+  }
+  .description-text {
+    width: 100%;
+  }
+
+  .para-text {
+    text-align: initial;
+  }
+
+  .description-text-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .underline-bold-text {
+    text-align: initial;
+  }
+
+  .description-image-container {
+    width: 100%;
   }
 }

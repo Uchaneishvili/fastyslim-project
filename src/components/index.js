@@ -278,6 +278,32 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="get-slim-now">
+        <div className="slim-medicine-image-container">
+          <img
+            className="slim-medicine"
+            src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-blister.png"
+            alt="medicine"
+          />
+        </div>
+        <div className="click-here-label label-container">
+          <div className="click-label-container label-container">
+            <div className="texts-on-label slim-texts">
+              <div className="text-on-the-label slim-text">
+                Klicken Sie hier,
+                <br />
+                UM JETZT FASTY SLIM ZU ERHALTEN!
+              </div>
+            </div>
+            <img
+              className="label get-slim-label"
+              src="https://fastyslim.de/wp-content/uploads/2020/12/Pfeil-orange-01.png"
+              alt="label"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="third-main-container">
         <div className="first-view-container">
           <div className="left-side-container"></div>

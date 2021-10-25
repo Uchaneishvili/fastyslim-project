@@ -363,6 +363,88 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="services-container responsibilities">
+        <div className="cards-title-container">
+          <h2 className="cards-main-title">
+            UNSERE VERANTWORTUNG <br /> FÜR UNSERE UMWELT ERNST.
+          </h2>
+        </div>
+
+        <div className="cards">
+          <div className="card-first">
+            <div className="card-first-title-container">
+              <h2 className="card-main-title">
+                Kontrollierte
+                <br />
+                HERSTELLUNG
+              </h2>
+            </div>
+            <div className="card-first-image-container">
+              <img
+                className="card-first-image"
+                src="https://fastyslim.de/wp-content/uploads/2020/12/labor.jpg"
+                alt="controlled manufacturing"
+              />
+            </div>
+            <div className="card-first-para-container">
+              Wir stellen unsere Produkte ausschließlich in der EU her. Nur so
+              können wir die gleichbleibende Wirksamkeit unserer Produkte
+              garantieren.
+            </div>
+          </div>
+          <div className="card-first">
+            <div className="card-first-title-container">
+              <h2 className="card-main-title">
+                Ständige Prüfung <br />
+                durch Labore
+              </h2>
+            </div>
+            <div className="card-first-image-container">
+              <img
+                className="card-first-image"
+                src="https://fastyslim.de/wp-content/uploads/2020/12/laboratory.jpg"
+                alt="laboratory"
+              />
+            </div>
+            <div className="card-first-para-container">
+              Wir lassen unsere Produkte ständig von unabhängigen Laboren
+              prüfen. Somit können wir einen optimalen Wirkungsgrad
+              gewährleisten.
+            </div>
+          </div>
+          <div className="card-first">
+            <div className="card-first-title-container">
+              <h2 className="card-main-title">
+                Schnelle <br />
+                Lieferung
+              </h2>
+            </div>
+            <div className="card-first-image-container">
+              <img
+                className="card-first-image"
+                src="https://fastyslim.de/wp-content/uploads/2020/12/lieferung1.jpg"
+                alt="Fast Delivery"
+              />
+            </div>
+            <div className="card-first-para-container">
+              Wir versenden per DHL und GLS. In der Regel liefern wir innerhalb
+              3 bis 6 Werktagen abhängig vom Bestellaufkommen.
+            </div>
+          </div>
+        </div>
+
+        <div className="button-container responsibilities-button-container">
+          <a href="https://fastyslim.de/fastyslim-bestellen/">
+            <button className="href-button-little responsibilities-red-button">
+              Zu unseren Produkten
+            </button>
+          </a>
+          <p className="text-above-the-button responsibilities-button-para">
+            Ab 24,95€ pro Packung
+          </p>
+        </div>
+      </div>
+
       <div className="fifth-main-container">
         <div className="first-view-container">
           <div className="left-side-container"></div>

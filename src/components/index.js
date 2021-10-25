@@ -304,6 +304,120 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="services-container how-does-it-works">
+        <div className="title-and-instruction">
+          <div className="title-for-instruction">
+            <h2 className="main-title-for-instruction">WIE FUNKTIONIERT ES?</h2>
+            <h2 className="secondary-title-for-instruction">
+              FASTY SLIM zwingt Ihren Körper, Fett anstelle von Kohlehydraten
+              für Energie zu verbrennen
+            </h2>
+          </div>
+          <div className="fastyslim-instruction">
+            <div className="left-side-instruction">
+              <div className="left-side-image-container">
+                <img
+                  className="left-side-image"
+                  src="https://fastyslim.de/wp-content/uploads/2020/12/normal-diaet.jpg"
+                  alt="normal-diet"
+                />
+              </div>
+
+              <div className="title-for-left-side-instruction-container">
+                <h2 className="title-for-left-side-instruction">
+                  WARUM IHRE DIÄTEN FEHLSCHLAGEN:
+                </h2>
+              </div>
+
+              <div className="description-of-left-side-instruction">
+                Aufgrund der hohen Menge an Kohlehydraten in unseren
+                Lebensmitteln verbrennt unser Körper Kohlehydrate anstelle von
+                Fett, um Energie zu bekommen, da sie eine einfachere
+                Energiequelle sind.
+              </div>
+
+              <div className="the-problems-container">
+                <div className="title-of-the-problem-container">
+                  <h2 className="title-of-the-problem">Das Problem</h2>
+                </div>
+                <div className="description-of-problems">
+                  <p className="para-for-instructions">
+                    1. Fett wird im Körper gespeichert, da Kohlehydrate als
+                    einfache Energiequelle verbrannt werden. Im Grunde genommen
+                    nehmen wir so von Jahr zu Jahr zu.
+                  </p>
+                  <p className="para-for-instructions">
+                    2. Kohlehydrate sind nicht die ideale Energiequelle des
+                    Körpers, deshalb fühlen wir uns am Ende des Tages oft müde,
+                    gestresst und ausgelaugt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="right-side-instruction">
+              <div className="right-side-image-container">
+                <img
+                  className="right-side-image"
+                  src="https://fastyslim.de/wp-content/uploads/2020/12/ultrarev-diaet.png"
+                  alt="ultra rev diet"
+                />
+              </div>
+
+              <div className="title-for-right-side-instruction-container">
+                <h2 className="title-for-right-side-instruction">
+                  WARUM <span style={{ color: "red" }}>FASTYSLIM </span>
+                  FUNKTIONIERT!
+                </h2>
+              </div>
+
+              <div className="description-of-right-side-instruction">
+                <p className="para-for-instructions">
+                  Der FASTY SLIM-Effekt ist der Zustand des Körpers, indem er
+                  tatsächlich Fett anstelle von Kohlehydraten verbrennt, um
+                  Energie zu erhalten. Selbstständig den Zustand der
+                  Fettverbrennung zu erreichen, ist sehr schwer, und man braucht
+                  Monate dafür. FASTYSLIM hilft Ihrem Körper, schnell diesen
+                  Zustand zu erreichen und Fett anstelle von Kohlehydraten zu
+                  verbrennen!
+                </p>
+              </div>
+
+              <div className="the-solution-container">
+                <div className="title-of-the-solution-container">
+                  <h2 className="title-of-the-solution">Die Lösung</h2>
+                </div>
+                <div className="description-of-solution">
+                  <p className="para-for-instructions">
+                    1. Wenn Ihr Köper sich im Zustand der Fettverbrennung
+                    befindet, verbrennen Sie gespeichertes Fett für Energie und
+                    keine Kohlehydrate!
+                  </p>
+
+                  <p className="para-for-instructions">
+                    FASTYSLIM direct effect ist ein Nahrungsergänzungsmittel zur
+                    täglichen Einnahme, dass Ihnen hilft, den Zustand der
+                    Abnahme zu erreichen, um Fett schnell zu verbrennen!
+                  </p>
+
+                  <p className="para-for-instructions">
+                    2. Fett ist die ideale Energiequelle des Körpers und wenn
+                    Sie im Zustand der Fettverbrennung sind, haben Sie Energie
+                    und mentale Klarheit wie niemals zuvor und nehmen sehr
+                    schnell ab.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="services-container title-for-third-main-container">
+        <h2 className="black-title">
+          ES WURDE ANGENOMMEN, DASS DER ZUSTAND DER FETTVERBRENNUNG DURCH DIE
+          ERNÄHRUNG NUR SEHR SCHWER ZU ERREICHEN SEI …
+        </h2>
+        <h2 className="red-title">BIS JETZT</h2>
+      </div>
       <div className="third-main-container">
         <div className="first-view-container">
           <div className="left-side-container"></div>

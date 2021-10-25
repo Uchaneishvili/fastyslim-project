@@ -334,6 +334,35 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="second-main-container staying-is-easy-with-fastyslim">
+        <div className="first-view-container">
+          <div className="left-side-container"></div>
+          <div className="right-side-container">
+            <div className="right-side-container-container-second">
+              <div className="proof-text-and-image">
+                <h2 className="the-proof staying-is-easy-title">
+                  IM ZUSTAND DER
+                </h2>
+                <h2 className="the-proof-secondary-text staying-is-easy-main-title">
+                  ABNAHME
+                </h2>
+                <h2 className="the-proof staying-is-easy-title">
+                  ZU BLEIBEN, IST EINFACH MIT
+                </h2>
+              </div>
+
+              <div className="proof-image-container staying-is-easy-image-container">
+                <img
+                  className="proof-image staying-is-easy-image"
+                  src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-logo.png"
+                  alt="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="fifth-main-container">
         <div className="first-view-container">
           <div className="left-side-container"></div>

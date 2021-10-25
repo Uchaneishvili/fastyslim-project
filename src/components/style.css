@@ -520,6 +520,34 @@ a {
   transform: translateY(-30%);
 }
 
+/*staying is easy with fastyslim */
+
+.staying-is-easy-with-fastyslim {
+  background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-04.jpg");
+  background-size: cover;
+  height: 1000px;
+}
+
+.staying-is-easy-title {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  font-style: normal;
+  line-height: 1;
+  font-size: 32px;
+}
+
+.staying-is-easy-main-title {
+  color: #db130c;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 98px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -769,5 +797,29 @@ a {
     text-align: center;
     position: initial;
     left: 0%;
+  }
+
+  /* Staying is easy*/
+
+  .staying-is-easy-title {
+    font-size: 25px;
+  }
+  .staying-is-easy-with-fastyslim {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .staying-is-easy-main-title {
+    font-size: 58px;
+  }
+
+  .staying-is-easy-image-contaier {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .staying-is-easy-image {
+    width: 50%;
   }
 }

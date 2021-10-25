@@ -477,6 +477,18 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="natural-product-banner">
+        <div className="services-container banner-container">
+          <div className="natural-product-image-container">
+            <img
+              className="natural-product-image"
+              src="https://fastyslim.de/wp-content/uploads/2020/12/gute-Nachrichten-03.png"
+              alt="natural product"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="services-container responsibilities">
         <div className="cards-title-container">
           <h2 className="cards-main-title">

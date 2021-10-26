@@ -731,6 +731,42 @@ function Mainpage() {
           </div>
         </div>
       </div>
+
+      <div className="services-container footer">
+        <div className="PSAC-container">
+          <div className="PSAC-main-title-container">
+            <h2 className="PSAC-main-title">Sicher und bequem bezahlen.</h2>
+            <div className="PSAC-secondary-title-and-image-container">
+              <div className="PSAC-image-container">
+                <img
+                  className="PSAC-image"
+                  src="https://fastyslim.de/wp-content/uploads/2020/12/security-symbol.png"
+                  alt="Security"
+                />
+              </div>
+              <div className="PSAC-secondary-title-container">
+                <h2 className="PSAC-secondary-title">
+                  Wir akzeptieren alle gängigen Zahlungssysteme.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="PSAC-symbols-and-para-container">
+          <div className="PSAC-symbols-container">
+            <img
+              src="https://fastyslim.de/wp-content/uploads/2020/12/chrome_GmyuWCzikN.png"
+              alt="chrome"
+              className="PSAC-symbols"
+            />
+          </div>
+          <div className="PSAC-para-container">
+            <p className="PSAC-para">
+              Kauf auf Rechnung und Ratenkauf nur bei ausreichender Bonität.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

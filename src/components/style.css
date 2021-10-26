@@ -815,6 +815,58 @@ a {
   padding: 0%;
   margin-top: 1%;
 }
+
+/* PSAC */
+
+.PSAC-secondary-title {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 1px;
+}
+
+.PSAC-secondary-title-and-image-container {
+  display: flex;
+}
+
+.PSAC-main-title {
+  color: #b9221e;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 0%;
+}
+
+.PSAC-para {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.PSAC-para-container {
+  padding: 0px 0px 0px 15px;
+}
+
+.PSAC-image {
+  width: 50px;
+}
+
+.PSAC-secondary-title-container {
+  padding-left: 5px;
+}
+
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -1178,5 +1230,33 @@ a {
   .WWYG-first-para,
   .WWYG-second-para {
     text-align: start;
+  }
+
+  /* Footer */
+
+  .footer {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .PSAC-symbols-container {
+    width: 100%;
+  }
+
+  .PSAC-symbols {
+    width: 80%;
+  }
+
+  .PSAC-secondary-title-and-image-container {
+    text-align: center;
+    display: block;
+  }
+
+  .PSAC-secondary-title-container {
+    margin-left: 0px;
+  }
+
+  .PSAC-container {
+    width: 100%;
   }
 }

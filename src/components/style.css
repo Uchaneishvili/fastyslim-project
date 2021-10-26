@@ -645,7 +645,7 @@ a {
 
 .images,
 .textes {
-  display: flex;
+  display: block;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;

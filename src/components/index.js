@@ -581,6 +581,88 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="services-container usage">
+        <div className="description">
+          <div className="description-text">
+            <h2 className="description-text-title usage-title">
+              VERWENDEN SIE FASTYSLIM
+            </h2>
+            <div className="description-text-sub-title usage-subtitle">
+              <strong>
+                FASTY SLIM ist ein einmaliges Abnahme-Produkt, welches
+                entwickelt wurde, um Ihnen zu helfen, schnell abzunehmen und
+                sich großartig zu fühlen.
+              </strong>
+            </div>
+            <p className="para-text">
+              FASTY SLIM ist ein Nahrungsergänzungsmittel, welches es dem Körper
+              ermöglicht, in den Zustand einer ernährungsbedingten Abnahme zu
+              gelangen. FASTY SLIM, das über eine spezielle Mischung von
+              Inhaltsstoffen verfügt, ist ein sicheres und einfaches Mittel, um
+              den Zustand der Fettverbrennung zu erreichen, ganz ohne die
+              negativen Nebenwirkungen, welche bei einer typischen Diät
+              auftreten. Der Gebrauch von FASTY SLIM ist äußerst einfach und es
+              liefert schnelle Gewichtsverlustergebnisse.
+            </p>
+            <p className="para-text">
+              Nehmen Sie täglich 2 bis 4 FASTY SLIM-Kapseln mit Wasser ein.
+              Vorzugsweise ca. 30 Minuten vor dem Mittag- und dem Abendessen.
+              <br />
+              Freuen Sie sich über mehr Energie, da der Körper Fett für die
+              Energiegewinnung nutzt!
+            </p>
+
+            <h2 className="description-text-title usage-title">
+              FASTYSLIM - FREUNDLICHES ESSEN
+            </h2>
+            <p className="para-text">
+              Die beste Art und Weise, die Wirkung von FASTY SLIM zu
+              unterstützen, ist eine Ernährung, die primär auf Fett, mäßig
+              Eiweiß und wenig Kohlehydrate basiert. Für das beste Ergebnis
+              sollten Sie ungefähr folgende Prozentwerte einhalten: 40 %
+              Protein, 40 % Kohlehydrate und 20 % gesunde Fette.
+            </p>
+
+            <h2 className="description-text-title usage-title">
+              TIPPS FÜR DEN ERFOLG
+            </h2>
+
+            <p className="para-text">
+              Bevor Sie anfangen, sollten Sie vor der Einnahme ein Foto von sich
+              machen und Ihre Köpermasse, Ihr Energieniveau, Ihre mentale
+              Klarheit und Ihren Zustand des Wohlbefindens festhalten, sodass
+              Sie Ihre Ergebnisse besser einschätzen können.
+            </p>
+
+            <div className="button-container usage-button-container">
+              <a href="https://fastyslim.de/fastyslim-bestellen/">
+                <button className="href-button-little usage-button">
+                  HOLEN SIE SICH FASTYSLIM JETZT
+                </button>
+              </a>
+              <p className="text-above-the-button responsibilities-button-para">
+                Ab 24,95€ pro Packung
+              </p>
+            </div>
+          </div>
+
+          <div className="description-image-container">
+            <img
+              className="description-image"
+              src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-perspektiveblister.png"
+              alt="medicine"
+            />
+            <div className="usage-para-bellow-the-image-container">
+              <p className="usage-para-bellow-the-image">
+                FASTY SLIM ist ein Nahrungsergänzungsmittel zur täglichen
+                Einnahme, dass Ihnen hilft, eine Gewichtsabnahme zu erreichen
+                und Fett schnell zu verbrennen!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="natural-product-banner">
         <div className="services-container banner-container">
           <div className="natural-product-image-container">

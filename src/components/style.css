@@ -712,6 +712,7 @@ a {
 /* Natural Product Banner */
 
 .natural-product-banner {
+  margin-top: 0%;
   height: auto;
   background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-05.jpg");
 }
@@ -867,6 +868,38 @@ a {
   padding-left: 5px;
 }
 
+/* Usage */
+
+.usage-subtitle {
+  color: #000000;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.usage-button-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.usage-button {
+  width: 80%;
+}
+
+.usage-para-bellow-the-image-container {
+  padding: 0px 45px 0px 45px;
+  text-align: center;
+}
+
+.usage-para-bellow-the-image {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.usage {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -1258,5 +1291,10 @@ a {
 
   .PSAC-container {
     width: 100%;
+  }
+
+  .usage-title {
+    font-size: 28px;
+    text-align: start;
   }
 }

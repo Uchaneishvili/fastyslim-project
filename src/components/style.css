@@ -724,6 +724,97 @@ a {
 .banner-container {
   margin-bottom: 0%;
 }
+/* WWYG */
+.WWYG-colorful-title {
+  color: #db130c;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.WWYG-black-title {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.WWYG-special-offer-text {
+  color: #212529;
+}
+
+.WWYG-special-offer {
+  display: flex;
+  margin-bottom: 2%;
+}
+.WWYG-check-img {
+  width: 32px;
+  margin-right: 5px;
+}
+.WWYG-list-container {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.WWYG-first-para,
+.WWYG-second-para,
+.WWYG-black-title,
+.WWYG-colorful-title {
+  line-height: 1.618;
+}
+
+.WWYG-secondary-title {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1;
+}
+.WWYG {
+  margin-top: 0px;
+}
+.WWYG-medicine-img-container {
+  text-align: center;
+}
+
+.WWYG-medicine-img {
+  width: 30%;
+}
+
+.WWYG-main-title {
+  color: #212529;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 2%;
+}
+
+.WWYG-center {
+  text-align: center;
+}
+
+.WWYG-advanced-fat-burning {
+  margin-top: 5%;
+}
+.WWYG-special-offer-text {
+  align-self: center;
+  padding-left: 5px;
+}
+.WWYG-order-now-container {
+  text-align: center;
+  width: 100%;
+}
+
+.WWYG-order-now {
+  width: 25%;
+}
+
+.WWYG-order-now-para {
+  padding: 0%;
+  margin-top: 1%;
+}
 @media (max-width: 767px) {
   .main-container {
     background-image: url("https://fastyslim.de/wp-content/uploads/2020/12/bg-01.jpg");
@@ -1061,5 +1152,31 @@ a {
 
   .natural-product-image-container {
     padding-top: 50%;
+  }
+
+  .WWYG {
+    text-align: start;
+    padding: 2%;
+  }
+
+  .WWYG-main-title {
+    font-size: 30px;
+  }
+
+  .WWYG-img {
+    width: 80%;
+  }
+
+  .WWYG-secondary-title {
+    font-size: 20px;
+  }
+
+  .WWYG-medicine-img {
+    width: 60%;
+  }
+
+  .WWYG-first-para,
+  .WWYG-second-para {
+    text-align: start;
   }
 }

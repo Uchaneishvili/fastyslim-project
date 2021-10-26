@@ -448,6 +448,110 @@ function Mainpage() {
         </div>
       </div>
 
+      <div className="services-container WWYG">
+        <div className="WWYG-center">
+          <div className="WWYG-img-container">
+            <img
+              className="WWYG-img"
+              src="https://fastyslim.de/wp-content/uploads/2020/12/footer-symbole-416x105.png"
+              alt="products standart"
+            />
+          </div>
+
+          <div className="WWYG-main-title-container">
+            <h2 className="WWYG-main-title">WAS ERHALTEN SIE?</h2>
+          </div>
+
+          <div className="WWYG-secondary-title-container">
+            <h2 className="WWYG-secondary-title">
+              Das Diät-Produkt,{" "}
+              <span style={{ color: "#db130c" }}>
+                mit dem Sie endlich Ihre Wunschfigur bekommen
+              </span>
+            </h2>
+          </div>
+        </div>
+
+        <div className="WWYG-medicine-img-container">
+          <img
+            className="WWYG-medicine-img"
+            alt="medicine"
+            src="https://fastyslim.de/wp-content/uploads/2020/12/fastyslim-blister.png"
+          />
+        </div>
+        <div className="WWYG-advanced-fat-burning">
+          <div className="WWYG-colorful-title-container">
+            <h2 className="WWYG-colorful-title">
+              FASTY SLIM - FORTSCHRITTLICHE FETTVERBRENNUNG
+            </h2>
+          </div>
+
+          <div className="WWYG-black-title-container">
+            <h2 className="WWYG-black-title">
+              Versetzt Ihren Köper in den Zustand der Abnahme!
+            </h2>
+          </div>
+
+          <div className="WWYG-para-container">
+            <p className="WWYG-first-para">
+              FASTYSLIM enthält die neueste Wirkungsformel und ist das erste
+              Produkt, welches für den Stoffwechselzustand der Abnahme sorgt.
+              Eine revolutionäre Diätformel, welche in Deutschland entwickelt
+              wurde, um auch den Menschen zu helfen, bei denen bisher kein
+              Diätprodukt funktioniert hat.
+            </p>
+
+            <p className="WWYG-second-para">
+              Werden Sie mit unserem FASTY SLIM-Nahrungsergänzungsmittel wieder
+              schlank, gesund und selbstbewusst. FASTY SLIM eignet sich sowohl
+              für Männer als auch Frauen. Es ist ein dynamisches und mächtiges
+              Diät-Nahrungsergänzungsmittel, das den Gewichtsverlust
+              unterstützt, für Bauchfettverbrennung und für eine bessere
+              Verdauung sorgt und einen erholsameren Schlaf bringt.
+            </p>
+          </div>
+
+          <div className="WWYG-list-container">
+            <ul className="WWYG-list">
+              <li>Schneller Gewichtsverlust</li>
+              <li>Verbrennung von Fett in Problembereichen</li>
+              <li>Schnelle Erreichung des Zustands der Abnahme</li>
+              <li>Verbrennung von Fett für Energie (ohne Hungergefühl)!</li>
+              <li>Bessere Vitalität und Wohlbefinden</li>
+              <li>Ohne Jo Jo Effekt</li>
+            </ul>
+          </div>
+
+          <div className="WWYG-special-offer">
+            <div className="WWYG-check-img-container">
+              <img
+                className="WWYG-check-img"
+                alt="check"
+                src="https://www.pngkit.com/png/full/304-3041244_in-stock-fa-check-circle-green.png"
+              />
+            </div>
+
+            <div className="WWYG-special-offer-text-container">
+              <span className="WWYG-special-offer-text">
+                <strong>
+                  NUR Jetzt Aktionsangebote mit hoher Preisersparnis verfügbar
+                </strong>
+              </span>
+            </div>
+          </div>
+          <div className="button-container WWYG-order-now-container">
+            <a href="https://fastyslim.de/fastyslim-bestellen/">
+              <button className="href-button-little WWYG-order-now">
+                Jetzt Bestellen
+              </button>
+            </a>
+            <p className="text-above-the-button WWYG-order-now-para">
+              Ab 24,95€ pro Packung
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="second-main-container staying-is-easy-with-fastyslim">
         <div className="first-view-container">
           <div className="left-side-container"></div>
